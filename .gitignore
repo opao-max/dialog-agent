@@ -1,0 +1,27 @@
+# Logs & runtime
+log/
+*.log
+nohup.out
+test/result/
+train/result/
+
+# Models
+models/
+*.safetensors
+*.bin
+pretrained/
+
+# Data
+*.pkl
+data/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Environment
+.env
+config.local.ini

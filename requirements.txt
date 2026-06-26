@@ -1,0 +1,25 @@
+﻿# Web framework & streaming
+flask>=2.3
+flask-socketio>=5.3
+gevent>=23.9
+gevent-websocket>=0.10
+
+# LLM API
+requests>=2.31
+openai>=1.30
+httpx>=0.27
+
+# Data & serialization
+redis>=5.0
+pandas>=2.2
+numpy>=1.26
+pyyaml>=6.0
+
+# ML training
+torch>=2.2
+transformers>=4.40
+scikit-learn>=1.4
+
+# Utils
+loguru>=0.7
+tqdm>=4.66
