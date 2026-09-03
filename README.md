@@ -100,3 +100,9 @@ python train/intent_infer.py # inference
 ## License
 
 [MIT](LICENSE)
+
+## Notes
+
+- Intent and reject classifiers are trained separately and exposed as independent microservices; the orchestrator calls them over HTTP.
+- The MCP tool servers are optional - the dialogue loop degrades gracefully when they are unreachable.
+
