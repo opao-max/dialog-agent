@@ -25,3 +25,8 @@ __pycache__/
 # Environment
 .env
 config.local.ini
+
+# Test data & env
+*.jsonl
+.env
+
