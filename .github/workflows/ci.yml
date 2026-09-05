@@ -29,7 +29,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Syntax check
-        run: python -m compileall -q . --exclude-dir=test/data
+        run: python -m compileall -q -x "test/data" .
 
       - name: Lint
         run: |
